@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FlowShop AutoPoster</title>
+<meta name="description" content="FlowShop AutoPoster helps sellers organize product media, prepare short-form videos, review content, and publish approved videos to connected platforms.">
+<style>
+:root{
+  --bg:#07152f; --card:#0f2247; --text:#eef5ff; --muted:#b8c7e6;
+  --a:#27d6d0; --b:#7657ff; --line:#29436e;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:#f6f8fc;color:#17213a;line-height:1.65}
+header{background:linear-gradient(135deg,var(--bg),#143c76);color:white}
+.wrap{max-width:980px;margin:auto;padding:24px}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:20px}
+.brand img{width:46px;height:46px;border-radius:12px}
+.nav a{color:#dbe8ff;text-decoration:none;margin-left:18px}
+.hero{padding:70px 24px 76px;text-align:center;max-width:880px;margin:auto}
+.hero h1{font-size:46px;line-height:1.1;margin:12px 0}
+.hero p{font-size:19px;color:#d7e6ff;max-width:700px;margin:18px auto}
+.badge{display:inline-block;padding:7px 12px;border:1px solid #4c71a9;border-radius:999px;color:#cde1ff}
+main{max-width:980px;margin:auto;padding:42px 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:white;border:1px solid #e2e8f2;border-radius:18px;padding:24px;box-shadow:0 8px 24px rgba(22,44,88,.05)}
+.card h3{margin-top:0}
+.section{margin:22px 0 42px}
+h2{font-size:30px;margin-bottom:14px}
+.button{display:inline-block;background:#173e7c;color:white;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:700}
+footer{border-top:1px solid #dde5f0;background:white}
+footer a{color:#173e7c;text-decoration:none;margin-right:18px}
+.policy{background:white;border:1px solid #e2e8f2;border-radius:18px;padding:30px}
+.policy h1{margin-top:0}
+.policy h2{font-size:22px;margin-top:30px}
+.small{color:#67738b;font-size:14px}
+@media(max-width:640px){.hero h1{font-size:36px}.nav{align-items:flex-start;flex-direction:column}.nav a{margin:0 14px 0 0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="brand"><img src="app-icon.png" alt="FlowShop AutoPoster icon"><span>FlowShop AutoPoster</span></div>
+    <nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+  </div>
+  <section class="hero">
+    <span class="badge">Desktop commerce-video workflow</span>
+    <h1>Prepare, review, and publish product videos</h1>
+    <p>FlowShop AutoPoster is a desktop application designed to help sellers organize product media, prepare short-form video content, review each item, and publish only user-approved videos to connected platforms.</p>
+  </section>
+</header>
+
+<main>
+  <section class="section">
+    <h2>What the app does</h2>
+    <div class="grid">
+      <div class="card"><h3>Product workflow</h3><p>Organize product information and media from integrations enabled by the user.</p></div>
+      <div class="card"><h3>Video preparation</h3><p>Prepare prompts, scripts, and video assets for product-focused short-form content.</p></div>
+      <div class="card"><h3>User review</h3><p>Content is presented for user review and approval before publishing.</p></div>
+      <div class="card"><h3>Connected publishing</h3><p>Publish approved content through supported platform APIs after the user authorizes access.</p></div>
+    </div>
+  </section>
+
+  <section class="section card">
+    <h2>How it works</h2>
+    <p>1. The user connects only the services they want to use. 2. The user selects or imports product information and media. 3. The app prepares content for review. 4. The user approves content before it is eligible for publishing. 5. The app sends the approved content through the selected platform's authorized API.</p>
+  </section>
+
+  <section class="section">
+    <h2>Privacy and control</h2>
+    <p>Users control which integrations are connected and which content is approved for publishing. The public website itself does not require an account and does not intentionally collect personal information.</p>
+    <a class="button" href="privacy.html">Read Privacy Policy</a>
+  </section>
+
+  <section class="section card">
+    <h2>Independent service</h2>
+    <p>FlowShop AutoPoster is an independent productivity tool and is not endorsed by or affiliated with TikTok, Shopee, Meta, or Google. Use of connected services is subject to each provider's own terms, policies, permissions, and API rules.</p>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  <strong>FlowShop AutoPoster</strong><br><br>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+  <a href="https://github.com/luksnaree">Developer profile</a>
+  <p class="small">© 2026 FlowShop AutoPoster.</p>
+</div></footer>
+</body></html>
